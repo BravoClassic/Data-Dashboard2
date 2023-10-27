@@ -1,0 +1,58 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  text-align: center;
+  height: 100vh;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.cryptoItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.cryptoSearchBar{
+  width: 50%;
+  padding: 1em;
+  font-size: large;
+}
+
+.name{
+  font-size: large;
+  font-weight: light;
+}
+
+.price{
+  font-size: large;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+
+.details{
+  padding: 1em;
+  text-align: justify;
+  font-size: large;
+}
+
