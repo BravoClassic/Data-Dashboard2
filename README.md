@@ -28,6 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+https://github.com/BravoClassic/Data-Dashboard2/blob/main/crypto.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with  [Kap](https://getkap.co/) for macOS
