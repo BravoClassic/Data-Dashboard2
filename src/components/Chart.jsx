@@ -12,7 +12,7 @@ import moment from "moment";
 import { Fragment } from "react";
 import { Line } from "react-chartjs-2";
 import { useParams } from "react-router-dom";
-
+import PropTypes from "prop-types";
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -58,9 +58,15 @@ const Chart = (coin) => {
   return (
     <Fragment>
       <Line options={options} data={data} />
-      <p>Price of {id} for 180 Days</p>
+      <p>Price of {id} for </p>
     </Fragment>
   );
 };
 
 export default Chart;
+
+
+Chart.propTypes = {
+  coint: PropTypes.object.isRequired,
+  days: PropTypes.number.isRequired,
+};

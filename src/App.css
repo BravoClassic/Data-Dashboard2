@@ -56,3 +56,63 @@
   font-size: large;
 }
 
+.App{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+}
+
+.sidebar{
+  height: 100vh;
+  width: 20%;
+  background-color: rgb(65, 68, 69);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.crypto-section{
+  width:80%;
+  padding: 0em 1rem
+}
+
+
+.crypto-item{
+  width: 80%;
+  padding: 0em 1rem;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  list-style: none;
+  
+}
+
+.navigation li{
+  padding: 1em;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation li:hover{
+  color: rgb(65, 68, 69);
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select-days{
+  padding: 1em;
+  font-size: larger;
+}
+
+.more{
+  margin-top: 1rem;
+}
