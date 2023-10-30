@@ -4,7 +4,7 @@ Submitted by: **Gerald Akorli**
 
 This web app: **Creating a crypto app to view all crypto's and gain a details and chart of the price.**
 
-Time spent: **24** hours spent in total
+Time spent: **28** hours spent in total
 
 ## Required Features
 
